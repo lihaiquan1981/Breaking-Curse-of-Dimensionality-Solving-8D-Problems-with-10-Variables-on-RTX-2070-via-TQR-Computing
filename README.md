@@ -1,0 +1,2 @@
+# Breaking-Curse-of-Dimensionality-Solving-8D-Problems-with-10-Variables-on-RTX-2070-via-TQR-Computing
+By leveraging topological quantum relaxation physical computing, the Turing mechanism and the von Neumann architecture are transcended, breaking the chip-based digital numerical simulation paradigm; RTX 2070 combined with ADC computing module enables an improvement of more than 10⁸ in overall computational power relative to traditional computation.
