@@ -1,0 +1,546 @@
+2025-12-05 20:26:24,870 - __main__ - INFO - Starting ADC V7.4.4 Fixed Comprehensive Test Suite
+2025-12-05 20:26:24,871 - __main__ - INFO - ================================================================================
+2025-12-05 20:26:24,916 - __main__ - INFO - Memory strategy: Directly allocate 35GB memory pool = 35.0GB total
+2025-12-05 20:26:24,916 - __main__ - INFO - Set memory limit: 35.0GB
+2025-12-05 20:26:24,917 - __main__ - INFO - Actual mempool limit: 35.0GB
+2025-12-05 20:26:24,917 - __main__ - INFO - SUCCESS: 35GB memory pool setup successful!
+2025-12-05 20:26:24,937 - __main__ - INFO - System total memory: 31.9GB
+2025-12-05 20:26:24,937 - __main__ - INFO - System available memory: 28.0GB
+2025-12-05 20:26:24,938 - __main__ - INFO - System used memory: 4.0GB
+2025-12-05 20:26:24,938 - __main__ - INFO - Starting memory allocation test...
+2025-12-05 20:26:24,948 - __main__ - INFO - Successfully allocated 4GB test array, current memory usage: 3.7GB
+2025-12-05 20:26:25,083 - __main__ - INFO - Test array released
+2025-12-05 20:26:25,083 - __main__ - INFO - CuPy memory pool status:
+2025-12-05 20:26:25,084 - __main__ - INFO -   - Used: 0.0GB
+2025-12-05 20:26:25,084 - __main__ - INFO -   - Total limit: 35.0GB
+2025-12-05 20:26:25,084 - __main__ - INFO -   - Available: 35.0GB
+2025-12-05 20:26:25,084 - __main__ - INFO -   - Free blocks: 0
+2025-12-05 20:26:25,084 - __main__ - INFO - GPU memory cleared
+2025-12-05 20:26:25,085 - __main__ - INFO - ADC Test Suite V7.5.2.6 (V74 Compatible) initialized: 100000000D, 2000 iterations
+2025-12-05 20:26:25,085 - __main__ - INFO - Using natural dimension handling (V74 compatible)
+2025-12-05 20:26:25,085 - adc_v74 - INFO - GPU manager initialized successfully
+2025-12-05 20:26:25,460 - adc_v74 - INFO - ADC Modular Framework V7.4.4 initialized - Pure GPU Mode
+2025-12-05 20:26:25,461 - adc_v74 - INFO - ADC Infinite State Space V7.4.4 initialized: cardinality=aleph_omega, dimension=None
+2025-12-05 20:26:25,461 - adc_v74 - INFO - ADC Fusion System V7.4.4 initialized (ID: 3932ce44)
+2025-12-05 20:26:25,461 - adc_v74 - INFO - Pure GPU Full Adaptive Mode
+2025-12-05 20:26:25,461 - adc_v74 - INFO - All parameters will evolve autonomously
+2025-12-05 20:26:25,461 - adc_v74 - INFO - Backend: GPU (CuPy)
+2025-12-05 20:26:25,461 - __main__ - INFO - Added solve_adc_system_complete method for V74 engine (avoid recursion)
+2025-12-05 20:26:25,461 - __main__ - INFO - Memory usage - Used: 0.00GB/35.00GB, Available: 35.00GB
+2025-12-05 20:26:25,462 - __main__ - INFO - OK: 内存使用正常，35GB内存池运行良好
+2025-12-05 20:26:25,463 - __main__ - INFO - Starting ADC test suite execution...
+2025-12-05 20:26:25,463 - __main__ - INFO - Current configuration: 100,000,000 variables, 8D
+2025-12-05 20:26:25,463 - __main__ - INFO - Iteration count: 2000 times
+2025-12-05 20:26:25,463 - __main__ - INFO - ================================================================================
+2025-12-05 20:26:25,463 - __main__ - INFO - STARTING ADC V7.6 SELECTIVE TEST SUITE (V74 Compatible)
+2025-12-05 20:26:25,464 - __main__ - INFO - Dimension: 100000000, Max Iterations: 2000
+2025-12-05 20:26:25,464 - __main__ - INFO - Pure GPU Implementation with V74 Compatible
+2025-12-05 20:26:25,464 - __main__ - INFO - Testing with natural dimension handling (v74 compatible)
+2025-12-05 20:26:25,464 - __main__ - INFO - Selected tests: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+2025-12-05 20:26:25,464 - __main__ - INFO - ================================================================================
+2025-12-05 20:26:25,465 - __main__ - INFO - 
+[01/25] Running test_01_basic_convergence (Basic Convergence) - Difficulty: low...
+2025-12-05 20:26:25,465 - __main__ - INFO - Testing basic convergence with smooth exponential target...
+2025-12-05 20:26:35,315 - adc_v74 - INFO - Starting ADC computation V7.4.4 #1
+2025-12-05 20:26:35,316 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 20:37:59,322 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 20:37:59,322 - adc_v74 - INFO - Converged: True
+2025-12-05 20:37:59,323 - adc_v74 - INFO - Final Δ: 9.804542e-06
+2025-12-05 20:37:59,324 - adc_v74 - INFO - Iterations: 1507
+2025-12-05 20:37:59,324 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 20:37:59,324 - adc_v74 - INFO - No human intervention was required
+2025-12-05 20:37:59,325 - __main__ - INFO -   Created data with shape: (10, 10, 10, 10, 10, 10, 10, 10)
+2025-12-05 20:37:59,326 - __main__ - INFO - [PASS] test_01_basic_convergence PASSED
+2025-12-05 20:37:59,326 - __main__ - INFO -   Summary for test_01_basic_convergence:
+2025-12-05 20:37:59,328 - __main__ - INFO -     - Converged: True
+2025-12-05 20:37:59,328 - __main__ - INFO -     - Final Delta: 9.804542e-06
+2025-12-05 20:37:59,329 - __main__ - INFO -     - Iterations: 1507
+2025-12-05 20:37:59,330 - __main__ - INFO -     - Difficulty: low
+2025-12-05 20:37:59,330 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 20:37:59,331 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 20:37:59,332 - __main__ - INFO -     - Total Duration: 11m 33.86s
+2025-12-05 20:37:59,332 - __main__ - INFO - 
+[02/25] Running test_02_nonlinear_dynamics (Nonlinear Dynamics) - Difficulty: medium...
+2025-12-05 20:37:59,333 - __main__ - INFO - Testing nonlinear dynamics with strongly coupled target...
+2025-12-05 20:38:02,831 - adc_v74 - INFO - Starting ADC computation V7.4.4 #2
+2025-12-05 20:38:02,832 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 20:43:36,239 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 20:43:36,239 - adc_v74 - INFO - Converged: True
+2025-12-05 20:43:36,245 - adc_v74 - INFO - Final Δ: 9.863897e-06
+2025-12-05 20:43:36,246 - adc_v74 - INFO - Iterations: 1637
+2025-12-05 20:43:36,246 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 20:43:36,248 - adc_v74 - INFO - No human intervention was required
+2025-12-05 20:43:36,248 - __main__ - INFO -   Created nonlinear data with shape: (10, 10, 10, 10, 10, 10, 10, 10)
+2025-12-05 20:43:36,249 - __main__ - INFO - [PASS] test_02_nonlinear_dynamics PASSED
+2025-12-05 20:43:36,249 - __main__ - INFO -   Summary for test_02_nonlinear_dynamics:
+2025-12-05 20:43:36,250 - __main__ - INFO -     - Converged: True
+2025-12-05 20:43:36,250 - __main__ - INFO -     - Final Delta: 9.863897e-06
+2025-12-05 20:43:36,251 - __main__ - INFO -     - Iterations: 1637
+2025-12-05 20:43:36,251 - __main__ - INFO -     - Difficulty: medium
+2025-12-05 20:43:36,252 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 20:43:36,252 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 20:43:36,253 - __main__ - INFO -     - Total Duration: 5m 36.92s
+2025-12-05 20:43:36,253 - __main__ - INFO - 
+[03/25] Running test_03_oscillatory_targets (Oscillatory Targets) - Difficulty: medium...
+2025-12-05 20:43:36,254 - __main__ - INFO - Testing convergence to multi-frequency oscillatory target...
+2025-12-05 20:43:38,753 - adc_v74 - INFO - Starting ADC computation V7.4.4 #3
+2025-12-05 20:43:38,754 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 20:49:01,361 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 20:49:01,361 - adc_v74 - INFO - Converged: True
+2025-12-05 20:49:01,362 - adc_v74 - INFO - Final Δ: 9.912585e-06
+2025-12-05 20:49:01,362 - adc_v74 - INFO - Iterations: 1571
+2025-12-05 20:49:01,362 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 20:49:01,363 - adc_v74 - INFO - No human intervention was required
+2025-12-05 20:49:01,364 - __main__ - INFO -   Created oscillatory data with shape: (10, 10, 10, 10, 10, 10, 10, 10)
+2025-12-05 20:49:01,364 - __main__ - INFO - [PASS] test_03_oscillatory_targets PASSED
+2025-12-05 20:49:01,365 - __main__ - INFO -   Summary for test_03_oscillatory_targets:
+2025-12-05 20:49:01,366 - __main__ - INFO -     - Converged: True
+2025-12-05 20:49:01,366 - __main__ - INFO -     - Final Delta: 9.912585e-06
+2025-12-05 20:49:01,367 - __main__ - INFO -     - Iterations: 1571
+2025-12-05 20:49:01,367 - __main__ - INFO -     - Difficulty: medium
+2025-12-05 20:49:01,368 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 20:49:01,368 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 20:49:01,369 - __main__ - INFO -     - Total Duration: 5m 25.11s
+2025-12-05 20:49:01,369 - __main__ - INFO - 
+[04/25] Running test_04_periodic_boundary_conditions (Periodic Boundary Conditions) - Difficulty: medium...
+2025-12-05 20:49:01,370 - __main__ - INFO - Testing with periodic-like coupling structure...
+2025-12-05 20:49:03,967 - adc_v74 - INFO - Starting ADC computation V7.4.4 #4
+2025-12-05 20:49:03,968 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 20:55:52,834 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 20:55:52,834 - adc_v74 - INFO - Converged: True
+2025-12-05 20:55:52,834 - adc_v74 - INFO - Final Δ: 9.944643e-06
+2025-12-05 20:55:52,835 - adc_v74 - INFO - Iterations: 1532
+2025-12-05 20:55:52,836 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 20:55:52,836 - adc_v74 - INFO - No human intervention was required
+2025-12-05 20:55:52,837 - __main__ - INFO - [PASS] test_10_periodic_boundary_conditions PASSED
+2025-12-05 20:55:52,838 - __main__ - INFO -   Summary for test_10_periodic_boundary_conditions:
+2025-12-05 20:55:52,838 - __main__ - INFO -     - Converged: True
+2025-12-05 20:55:52,839 - __main__ - INFO -     - Final Delta: 9.944643e-06
+2025-12-05 20:55:52,839 - __main__ - INFO -     - Iterations: 1532
+2025-12-05 20:55:52,840 - __main__ - INFO -     - Difficulty: medium
+2025-12-05 20:55:52,840 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 20:55:52,841 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 20:55:52,842 - __main__ - INFO -     - Total Duration: 6m 51.47s
+2025-12-05 20:55:52,842 - __main__ - INFO - 
+[05/25] Running test_05_noise_robustness (Noise Robustness) - Difficulty: medium...
+2025-12-05 20:55:52,843 - __main__ - INFO - Testing robustness with highly noisy target...
+2025-12-05 20:55:55,538 - adc_v74 - INFO - Starting ADC computation V7.4.4 #5
+2025-12-05 20:55:55,539 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:05:27,416 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:05:27,417 - adc_v74 - INFO - Converged: True
+2025-12-05 21:05:27,423 - adc_v74 - INFO - Final Δ: 9.897405e-06
+2025-12-05 21:05:27,423 - adc_v74 - INFO - Iterations: 1570
+2025-12-05 21:05:27,424 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:05:27,426 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:05:27,426 - __main__ - INFO - [PASS] test_07_noise_robustness PASSED
+2025-12-05 21:05:27,427 - __main__ - INFO -   Summary for test_07_noise_robustness:
+2025-12-05 21:05:27,427 - __main__ - INFO -     - Converged: True
+2025-12-05 21:05:27,428 - __main__ - INFO -     - Final Delta: 9.897405e-06
+2025-12-05 21:05:27,428 - __main__ - INFO -     - Iterations: 1570
+2025-12-05 21:05:27,429 - __main__ - INFO -     - Difficulty: medium
+2025-12-05 21:05:27,430 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 21:05:27,430 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 21:05:27,431 - __main__ - INFO -     - Total Duration: 9m 34.58s
+2025-12-05 21:05:27,431 - __main__ - INFO - 
+[06/25] Running test_06_parameter_sensitivity (Parameter Sensitivity) - Difficulty: medium...
+2025-12-05 21:05:27,432 - __main__ - INFO - Testing parameter sensitivity with perturbed initial conditions...
+2025-12-05 21:05:29,977 - adc_v74 - INFO - Starting ADC computation V7.4.4 #6
+2025-12-05 21:05:29,977 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:10:57,068 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:10:57,068 - adc_v74 - INFO - Converged: False
+2025-12-05 21:10:57,073 - adc_v74 - INFO - Final Δ: 1.603652e+00
+2025-12-05 21:10:57,073 - adc_v74 - INFO - Iterations: 1000
+2025-12-05 21:10:57,075 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:10:57,075 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:10:57,076 - adc_v74 - INFO - Starting ADC computation V7.4.4 #7
+2025-12-05 21:10:57,076 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:17:07,958 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:17:07,959 - adc_v74 - INFO - Converged: False
+2025-12-05 21:17:07,965 - adc_v74 - INFO - Final Δ: 1.603670e+00
+2025-12-05 21:17:07,965 - adc_v74 - INFO - Iterations: 1000
+2025-12-05 21:17:07,965 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:17:07,965 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:17:08,039 - adc_v74 - INFO - Starting ADC computation V7.4.4 #8
+2025-12-05 21:17:08,039 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:23:07,663 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:23:07,664 - adc_v74 - INFO - Converged: False
+2025-12-05 21:23:07,669 - adc_v74 - INFO - Final Δ: 1.605539e+00
+2025-12-05 21:23:07,670 - adc_v74 - INFO - Iterations: 1000
+2025-12-05 21:23:07,670 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:23:07,671 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:23:07,724 - adc_v74 - INFO - Starting ADC computation V7.4.4 #9
+2025-12-05 21:23:07,725 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:32:40,973 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:32:40,973 - adc_v74 - INFO - Converged: True
+2025-12-05 21:32:40,979 - adc_v74 - INFO - Final Δ: 9.852181e-06
+2025-12-05 21:32:40,979 - adc_v74 - INFO - Iterations: 1597
+2025-12-05 21:32:40,979 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:32:40,980 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:32:41,010 - __main__ - INFO - [PASS] test_17_parameter_sensitivity PASSED
+2025-12-05 21:32:41,011 - __main__ - INFO -   Summary for test_17_parameter_sensitivity:
+2025-12-05 21:32:41,011 - __main__ - INFO -     - Converged: True
+2025-12-05 21:32:41,012 - __main__ - INFO -     - Final Delta: 9.852181e-06
+2025-12-05 21:32:41,013 - __main__ - INFO -     - Iterations: 1597
+2025-12-05 21:32:41,013 - __main__ - INFO -     - Difficulty: medium
+2025-12-05 21:32:41,014 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 21:32:41,014 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 21:32:41,015 - __main__ - INFO -     - Total Duration: 27m 13.58s
+2025-12-05 21:32:41,016 - __main__ - INFO - 
+[07/25] Running test_07_chaotic_initial_conditions (Chaotic Initial Conditions) - Difficulty: high...
+2025-12-05 21:32:41,016 - __main__ - INFO - Testing convergence from chaotic initial conditions...
+2025-12-05 21:32:44,272 - adc_v74 - INFO - Starting ADC computation V7.4.4 #10
+2025-12-05 21:32:44,273 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:38:03,813 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:38:03,813 - adc_v74 - INFO - Converged: True
+2025-12-05 21:38:03,819 - adc_v74 - INFO - Final Δ: 9.951135e-06
+2025-12-05 21:38:03,819 - adc_v74 - INFO - Iterations: 1093
+2025-12-05 21:38:03,820 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:38:03,820 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:38:03,821 - __main__ - INFO - [PASS] test_04_chaotic_initial_conditions PASSED
+2025-12-05 21:38:03,821 - __main__ - INFO -   Summary for test_04_chaotic_initial_conditions:
+2025-12-05 21:38:03,822 - __main__ - INFO -     - Converged: True
+2025-12-05 21:38:03,822 - __main__ - INFO -     - Final Delta: 9.951135e-06
+2025-12-05 21:38:03,823 - __main__ - INFO -     - Iterations: 1093
+2025-12-05 21:38:03,824 - __main__ - INFO -     - Difficulty: high
+2025-12-05 21:38:03,824 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 21:38:03,825 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 21:38:03,825 - __main__ - INFO -     - Total Duration: 5m 22.80s
+2025-12-05 21:38:03,826 - __main__ - INFO - 
+[08/25] Running test_08_multi_scale_problem (Multi Scale Problem) - Difficulty: high...
+2025-12-05 21:38:03,826 - __main__ - INFO - Testing multi-scale dynamics with separated timescales...
+2025-12-05 21:38:18,808 - adc_v74 - INFO - Starting ADC computation V7.4.4 #11
+2025-12-05 21:38:18,809 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:47:42,031 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:47:42,032 - adc_v74 - INFO - Converged: True
+2025-12-05 21:47:42,037 - adc_v74 - INFO - Final Δ: 9.988393e-06
+2025-12-05 21:47:42,037 - adc_v74 - INFO - Iterations: 1658
+2025-12-05 21:47:42,038 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:47:42,039 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:47:42,040 - __main__ - INFO - [PASS] test_05_multi_scale_problem PASSED
+2025-12-05 21:47:42,041 - __main__ - INFO -   Summary for test_05_multi_scale_problem:
+2025-12-05 21:47:42,041 - __main__ - INFO -     - Converged: True
+2025-12-05 21:47:42,042 - __main__ - INFO -     - Final Delta: 9.988393e-06
+2025-12-05 21:47:42,042 - __main__ - INFO -     - Iterations: 1658
+2025-12-05 21:47:42,043 - __main__ - INFO -     - Difficulty: high
+2025-12-05 21:47:42,043 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 21:47:42,044 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 21:47:42,044 - __main__ - INFO -     - Total Duration: 9m 38.21s
+2025-12-05 21:47:42,045 - __main__ - INFO - 
+[09/25] Running test_09_discontinuous_targets (Discontinuous Targets) - Difficulty: high...
+2025-12-05 21:47:42,045 - __main__ - INFO - Testing convergence to discontinuous step-function target...
+2025-12-05 21:47:46,515 - adc_v74 - INFO - Starting ADC computation V7.4.4 #12
+2025-12-05 21:47:46,516 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:53:00,560 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:53:00,561 - adc_v74 - INFO - Converged: True
+2025-12-05 21:53:00,565 - adc_v74 - INFO - Final Δ: 9.896328e-06
+2025-12-05 21:53:00,566 - adc_v74 - INFO - Iterations: 1489
+2025-12-05 21:53:00,567 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:53:00,568 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:53:00,568 - __main__ - INFO - [PASS] test_09_discontinuous_targets PASSED
+2025-12-05 21:53:00,569 - __main__ - INFO -   Summary for test_09_discontinuous_targets:
+2025-12-05 21:53:00,569 - __main__ - INFO -     - Converged: True
+2025-12-05 21:53:00,570 - __main__ - INFO -     - Final Delta: 9.896328e-06
+2025-12-05 21:53:00,570 - __main__ - INFO -     - Iterations: 1489
+2025-12-05 21:53:00,571 - __main__ - INFO -     - Difficulty: high
+2025-12-05 21:53:00,571 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 21:53:00,572 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 21:53:00,572 - __main__ - INFO -     - Total Duration: 5m 18.52s
+2025-12-05 21:53:00,573 - __main__ - INFO - 
+[10/25] Running test_10_coupled_oscillators (Coupled Oscillators) - Difficulty: high...
+2025-12-05 21:53:00,573 - __main__ - INFO - Testing coupled oscillator network dynamics...
+2025-12-05 21:53:03,123 - adc_v74 - INFO - Starting ADC computation V7.4.4 #13
+2025-12-05 21:53:03,123 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 21:56:04,516 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 21:56:04,516 - adc_v74 - INFO - Converged: True
+2025-12-05 21:56:04,517 - adc_v74 - INFO - Final Δ: 9.973531e-06
+2025-12-05 21:56:04,517 - adc_v74 - INFO - Iterations: 1417
+2025-12-05 21:56:04,517 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 21:56:04,517 - adc_v74 - INFO - No human intervention was required
+2025-12-05 21:56:04,517 - __main__ - INFO - [PASS] test_11_coupled_oscillators PASSED
+2025-12-05 21:56:04,517 - __main__ - INFO -   Summary for test_11_coupled_oscillators:
+2025-12-05 21:56:04,517 - __main__ - INFO -     - Converged: True
+2025-12-05 21:56:04,517 - __main__ - INFO -     - Final Delta: 9.973531e-06
+2025-12-05 21:56:04,518 - __main__ - INFO -     - Iterations: 1417
+2025-12-05 21:56:04,518 - __main__ - INFO -     - Difficulty: high
+2025-12-05 21:56:04,518 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 21:56:04,518 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 21:56:04,518 - __main__ - INFO -     - Total Duration: 3m 3.94s
+2025-12-05 21:56:04,518 - __main__ - INFO - 
+[11/25] Running test_11_wave_equation_analog (Wave Equation Analog) - Difficulty: high...
+2025-12-05 21:56:04,518 - __main__ - INFO - Testing wave equation analog with traveling wave solution...
+2025-12-05 21:56:07,104 - adc_v74 - INFO - Starting ADC computation V7.4.4 #14
+2025-12-05 21:56:07,104 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 22:00:44,611 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 22:00:44,612 - adc_v74 - INFO - Converged: True
+2025-12-05 22:00:44,617 - adc_v74 - INFO - Final Δ: 9.867694e-06
+2025-12-05 22:00:44,617 - adc_v74 - INFO - Iterations: 1111
+2025-12-05 22:00:44,618 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 22:00:44,620 - adc_v74 - INFO - No human intervention was required
+2025-12-05 22:00:44,620 - __main__ - INFO - [PASS] test_12_wave_equation_analog PASSED
+2025-12-05 22:00:44,621 - __main__ - INFO -   Summary for test_12_wave_equation_analog:
+2025-12-05 22:00:44,621 - __main__ - INFO -     - Converged: True
+2025-12-05 22:00:44,622 - __main__ - INFO -     - Final Delta: 9.867694e-06
+2025-12-05 22:00:44,622 - __main__ - INFO -     - Iterations: 1111
+2025-12-05 22:00:44,623 - __main__ - INFO -     - Difficulty: medium
+2025-12-05 22:00:44,623 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 22:00:44,624 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 22:00:44,633 - __main__ - INFO -     - Total Duration: 4m 40.10s
+2025-12-05 22:00:44,634 - __main__ - INFO - 
+[12/25] Running test_12_mixed_frequency_targets (Mixed Frequency Targets) - Difficulty: high...
+2025-12-05 22:00:44,635 - __main__ - INFO - Testing convergence to broadband mixed-frequency target...
+2025-12-05 22:01:19,760 - adc_v74 - INFO - Starting ADC computation V7.4.4 #15
+2025-12-05 22:01:19,760 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 22:10:18,205 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 22:10:18,206 - adc_v74 - INFO - Converged: True
+2025-12-05 22:10:18,212 - adc_v74 - INFO - Final Δ: 9.871591e-06
+2025-12-05 22:10:18,213 - adc_v74 - INFO - Iterations: 1468
+2025-12-05 22:10:18,213 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 22:10:18,214 - adc_v74 - INFO - No human intervention was required
+2025-12-05 22:10:18,214 - __main__ - INFO - [PASS] test_15_mixed_frequency_targets PASSED
+2025-12-05 22:10:18,215 - __main__ - INFO -   Summary for test_15_mixed_frequency_targets:
+2025-12-05 22:10:18,215 - __main__ - INFO -     - Converged: True
+2025-12-05 22:10:18,216 - __main__ - INFO -     - Final Delta: 9.871591e-06
+2025-12-05 22:10:18,217 - __main__ - INFO -     - Iterations: 1468
+2025-12-05 22:10:18,217 - __main__ - INFO -     - Difficulty: high
+2025-12-05 22:10:18,218 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 22:10:18,218 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 22:10:18,219 - __main__ - INFO -     - Total Duration: 9m 33.58s
+2025-12-05 22:10:18,219 - __main__ - INFO - 
+[13/25] Running test_13_convergence_basin_analysis (Convergence Basin Analysis) - Difficulty: high...
+2025-12-05 22:10:18,220 - __main__ - INFO - Testing convergence basin with multiple initial conditions...
+2025-12-05 22:10:25,580 - adc_v74 - INFO - Starting ADC computation V7.4.4 #16
+2025-12-05 22:10:25,580 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 22:19:50,325 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 22:19:50,325 - adc_v74 - INFO - Converged: True
+2025-12-05 22:19:50,326 - adc_v74 - INFO - Final Δ: 9.824926e-06
+2025-12-05 22:19:50,327 - adc_v74 - INFO - Iterations: 1566
+2025-12-05 22:19:50,327 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 22:19:50,329 - adc_v74 - INFO - No human intervention was required
+2025-12-05 22:19:50,330 - __main__ - INFO - [PASS] test_18_convergence_basin_analysis PASSED
+2025-12-05 22:19:50,337 - __main__ - INFO -   Summary for test_18_convergence_basin_analysis:
+2025-12-05 22:19:50,337 - __main__ - INFO -     - Converged: True
+2025-12-05 22:19:50,338 - __main__ - INFO -     - Final Delta: 9.824926e-06
+2025-12-05 22:19:50,338 - __main__ - INFO -     - Iterations: 1566
+2025-12-05 22:19:50,339 - __main__ - INFO -     - Difficulty: high
+2025-12-05 22:19:50,340 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 22:19:50,340 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 22:19:50,341 - __main__ - INFO -     - Total Duration: 9m 32.11s
+2025-12-05 22:19:50,341 - __main__ - INFO - 
+[14/25] Running test_14_stiff_equations (Stiff Equations) - Difficulty: very_high...
+2025-12-05 22:19:50,342 - __main__ - INFO - Testing stiff system with extreme eigenvalue spread...
+2025-12-05 22:19:53,069 - adc_v74 - INFO - Starting ADC computation V7.4.4 #17
+2025-12-05 22:19:53,070 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 22:27:07,577 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 22:27:07,577 - adc_v74 - INFO - Converged: True
+2025-12-05 22:27:07,578 - adc_v74 - INFO - Final Δ: 9.821026e-06
+2025-12-05 22:27:07,578 - adc_v74 - INFO - Iterations: 1443
+2025-12-05 22:27:07,579 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 22:27:07,580 - adc_v74 - INFO - No human intervention was required
+2025-12-05 22:27:07,580 - __main__ - INFO - [PASS] test_06_stiff_equations PASSED
+2025-12-05 22:27:07,581 - __main__ - INFO -   Summary for test_06_stiff_equations:
+2025-12-05 22:27:07,581 - __main__ - INFO -     - Converged: True
+2025-12-05 22:27:07,582 - __main__ - INFO -     - Final Delta: 9.821026e-06
+2025-12-05 22:27:07,582 - __main__ - INFO -     - Iterations: 1443
+2025-12-05 22:27:07,583 - __main__ - INFO -     - Difficulty: very_high
+2025-12-05 22:27:07,583 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 22:27:07,584 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 22:27:07,584 - __main__ - INFO -     - Total Duration: 7m 17.24s
+2025-12-05 22:27:07,585 - __main__ - INFO - 
+[15/25] Running test_15_extreme_gradients (Extreme Gradients) - Difficulty: very_high...
+2025-12-05 22:27:07,585 - __main__ - INFO - Testing convergence with extreme gradients...
+2025-12-05 22:27:10,297 - adc_v74 - INFO - Starting ADC computation V7.4.4 #18
+2025-12-05 22:27:10,297 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 22:33:54,619 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 22:33:54,619 - adc_v74 - INFO - Converged: True
+2025-12-05 22:33:54,620 - adc_v74 - INFO - Final Δ: 9.988134e-06
+2025-12-05 22:33:54,620 - adc_v74 - INFO - Iterations: 1292
+2025-12-05 22:33:54,622 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 22:33:54,622 - adc_v74 - INFO - No human intervention was required
+2025-12-05 22:33:54,623 - __main__ - INFO - [PASS] test_13_extreme_gradients PASSED
+2025-12-05 22:33:54,623 - __main__ - INFO -   Summary for test_13_extreme_gradients:
+2025-12-05 22:33:54,624 - __main__ - INFO -     - Converged: True
+2025-12-05 22:33:54,630 - __main__ - INFO -     - Final Delta: 9.988134e-06
+2025-12-05 22:33:54,631 - __main__ - INFO -     - Iterations: 1292
+2025-12-05 22:33:54,632 - __main__ - INFO -     - Difficulty: very_high
+2025-12-05 22:33:54,632 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 22:33:54,633 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 22:33:54,633 - __main__ - INFO -     - Total Duration: 6m 47.04s
+2025-12-05 22:33:54,634 - __main__ - INFO - 
+[16/25] Running test_16_adaptive_timestep_stress (Adaptive Timestep Stress) - Difficulty: very_high...
+2025-12-05 22:33:54,635 - __main__ - INFO - Testing adaptive timestep under rapidly changing dynamics...
+2025-12-05 22:34:02,183 - adc_v74 - INFO - Starting ADC computation V7.4.4 #19
+2025-12-05 22:34:02,201 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 22:40:57,983 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 22:40:57,983 - adc_v74 - INFO - Converged: True
+2025-12-05 22:40:57,988 - adc_v74 - INFO - Final Δ: 9.864926e-06
+2025-12-05 22:40:57,988 - adc_v74 - INFO - Iterations: 1593
+2025-12-05 22:40:57,990 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 22:40:57,991 - adc_v74 - INFO - No human intervention was required
+2025-12-05 22:40:57,992 - __main__ - INFO - [PASS] test_16_adaptive_timestep_stress PASSED
+2025-12-05 22:40:57,992 - __main__ - INFO -   Summary for test_16_adaptive_timestep_stress:
+2025-12-05 22:40:57,993 - __main__ - INFO -     - Converged: True
+2025-12-05 22:40:57,993 - __main__ - INFO -     - Final Delta: 9.864926e-06
+2025-12-05 22:40:57,994 - __main__ - INFO -     - Iterations: 1593
+2025-12-05 22:40:57,994 - __main__ - INFO -     - Difficulty: very_high
+2025-12-05 22:40:57,994 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 22:40:57,995 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 22:40:57,995 - __main__ - INFO -     - Total Duration: 7m 3.36s
+2025-12-05 22:40:57,996 - __main__ - INFO - 
+[17/25] Running test_17_bifurcation_behavior (Bifurcation Behavior) - Difficulty: very_high...
+2025-12-05 22:40:57,996 - __main__ - INFO - Testing system behavior near bifurcation points...
+2025-12-05 22:41:01,725 - adc_v74 - INFO - Starting ADC computation V7.4.4 #20
+2025-12-05 22:41:01,725 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 22:46:09,652 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 22:46:09,652 - adc_v74 - INFO - Converged: True
+2025-12-05 22:46:09,657 - adc_v74 - INFO - Final Δ: 9.871911e-06
+2025-12-05 22:46:09,657 - adc_v74 - INFO - Iterations: 1481
+2025-12-05 22:46:09,659 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 22:46:09,660 - adc_v74 - INFO - No human intervention was required
+2025-12-05 22:46:09,660 - __main__ - INFO - [PASS] test_19_bifurcation_behavior PASSED
+2025-12-05 22:46:09,661 - __main__ - INFO -   Summary for test_19_bifurcation_behavior:
+2025-12-05 22:46:09,661 - __main__ - INFO -     - Converged: True
+2025-12-05 22:46:09,662 - __main__ - INFO -     - Final Delta: 9.871911e-06
+2025-12-05 22:46:09,663 - __main__ - INFO -     - Iterations: 1481
+2025-12-05 22:46:09,663 - __main__ - INFO -     - Difficulty: very_high
+2025-12-05 22:46:09,664 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 22:46:09,664 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 22:46:09,665 - __main__ - INFO -     - Total Duration: 5m 11.66s
+2025-12-05 22:46:09,665 - __main__ - INFO - 
+[18/25] Running test_18_near_singular_conditions (Near Singular Conditions) - Difficulty: extreme...
+2025-12-05 22:46:09,666 - __main__ - INFO - Testing near-singular conditions with ill-conditioned target...
+2025-12-05 22:46:20,108 - adc_v74 - INFO - Starting ADC computation V7.4.4 #21
+2025-12-05 22:46:20,108 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 22:56:29,581 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 22:56:29,581 - adc_v74 - INFO - Converged: True
+2025-12-05 22:56:29,582 - adc_v74 - INFO - Final Δ: 9.900267e-06
+2025-12-05 22:56:29,582 - adc_v74 - INFO - Iterations: 1571
+2025-12-05 22:56:29,583 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 22:56:29,583 - adc_v74 - INFO - No human intervention was required
+2025-12-05 22:56:30,706 - __main__ - INFO - [PASS] test_14_near_singular_conditions PASSED
+2025-12-05 22:56:30,706 - __main__ - INFO -   Summary for test_14_near_singular_conditions:
+2025-12-05 22:56:30,707 - __main__ - INFO -     - Converged: True
+2025-12-05 22:56:30,707 - __main__ - INFO -     - Final Delta: 9.900267e-06
+2025-12-05 22:56:30,707 - __main__ - INFO -     - Iterations: 1571
+2025-12-05 22:56:30,708 - __main__ - INFO -     - Difficulty: extreme
+2025-12-05 22:56:30,708 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 22:56:30,708 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 22:56:30,708 - __main__ - INFO -     - Total Duration: 10m 21.04s
+2025-12-05 22:56:30,708 - __main__ - INFO - 
+[19/25] Running test_19_high_dimensional_chaos (High Dimensional Chaos) - Difficulty: extreme...
+2025-12-05 22:56:30,709 - __main__ - INFO - Testing high-dimensional chaotic system with advanced nonlinear coupling...
+2025-12-05 22:56:30,709 - __main__ - INFO -   This test implements coupled Lorenz systems with complex nonlinear coupling mechanisms
+2025-12-05 22:56:30,709 - __main__ - INFO -   Advanced features: nonlinear coupling, Lyapunov analysis, strange attractor dynamics
+2025-12-05 22:56:41,735 - adc_v74 - INFO - Starting ADC computation V7.4.4 #22
+2025-12-05 22:56:41,735 - adc_v74 - INFO - System will adapt all parameters automatically with GPU acceleration
+2025-12-05 23:02:35,091 - adc_v74 - INFO - ADC computation V7.4.4 completed successfully
+2025-12-05 23:02:35,091 - adc_v74 - INFO - Converged: True
+2025-12-05 23:02:35,092 - adc_v74 - INFO - Final Δ: 9.943904e-06
+2025-12-05 23:02:35,092 - adc_v74 - INFO - Iterations: 1216
+2025-12-05 23:02:35,092 - adc_v74 - INFO - NaN recoveries: 0
+2025-12-05 23:02:35,092 - adc_v74 - INFO - No human intervention was required
+2025-12-05 23:02:35,093 - __main__ - INFO - [PASS] test_20_high_dimensional_chaos PASSED
+2025-12-05 23:02:35,093 - __main__ - INFO -   Summary for test_20_high_dimensional_chaos:
+2025-12-05 23:02:35,094 - __main__ - INFO -     - Converged: True
+2025-12-05 23:02:35,094 - __main__ - INFO -     - Final Delta: 9.943904e-06
+2025-12-05 23:02:35,095 - __main__ - INFO -     - Iterations: 1216
+2025-12-05 23:02:35,095 - __main__ - INFO -     - Difficulty: extreme
+2025-12-05 23:02:35,096 - __main__ - INFO -     - Dimension errors handled: 0
+2025-12-05 23:02:35,097 - __main__ - INFO -     - NaN recoveries: 0
+2025-12-05 23:02:35,098 - __main__ - INFO -     - Total Duration: 6m 4.38s
+2025-12-05 23:02:35,098 - __main__ - INFO - 
+[20/25] Running test_20_ultra_biological_neural_quantum_system (Ultra Biological Neural Quantum System) - Difficulty: extreme_plus...
+2025-12-05 23:02:35,099 - __main__ - INFO - Testing ultra-dimensional biological neural-quantum system...
+2025-12-05 23:02:35,100 - __main__ - INFO -   This test simulates neural network dynamics with quantum effects in 6D phase space
+2025-12-05 23:02:35,100 - __main__ - INFO -   Beyond supercomputer capability: quantum-biological hybrid computing required
+2025-12-05 23:03:13,649 - __main__ - ERROR - [FAIL] test_08_ultra_biological_neural_quantum_system FAILED: Out of memory allocating 800,000,000 bytes (allocated so far: 18,400,004,096 bytes, limit set to: 37,580,963,840 bytes).
+2025-12-05 23:03:13,649 - __main__ - INFO - 
+[21/25] Running test_21_ultra_quantum_many_body_superconducting_topological (Ultra Quantum Many Body Superconducting Topological) - Difficulty: ultimate_quantum...
+2025-12-05 23:03:13,655 - __main__ - INFO - Testing ultra-dimensional quantum many-body-superconducting-topological system...
+2025-12-05 23:03:13,656 - __main__ - INFO -   This test simulates quantum many-body systems with superconductivity and topology in 6D phase space
+2025-12-05 23:03:13,656 - __main__ - INFO -   Beyond supercomputer capability: quantum many-body computing with exponential complexity required
+2025-12-05 23:03:23,707 - __main__ - ERROR - [FAIL] test_21_ultra_quantum_many_body_superconducting_topological FAILED: Out of memory allocating 800,000,000 bytes (allocated so far: 18,400,004,096 bytes, limit set to: 37,580,963,840 bytes).
+2025-12-05 23:03:23,707 - __main__ - INFO - 
+[22/25] Running test_22_ultra_dimensional_quantum_field_chaos_coupling_system (Ultra Dimensional Quantum Field Chaos Coupling System) - Difficulty: extreme_quantum_field_chaos...
+2025-12-05 23:03:23,717 - __main__ - INFO - Testing ultra-dimensional quantum field-chaos coupling system with complete QFT...
+2025-12-05 23:03:23,717 - __main__ - INFO -   This test implements complete quantum field theory equations coupled with chaos dynamics
+2025-12-05 23:03:23,718 - __main__ - INFO -   Advanced features: Klein-Gordon equation, Dirac equation, quantum field-chaos coupling
+2025-12-05 23:03:23,719 - __main__ - INFO -   Beyond supercomputer capability: quantum-classical hybrid computing required
+2025-12-05 23:03:32,107 - __main__ - ERROR - [FAIL] test_22_ultra_dimensional_quantum_field_chaos_coupling_system FAILED: Out of memory allocating 1,600,000,000 bytes (allocated so far: 17,600,004,096 bytes, limit set to: 37,580,963,840 bytes).
+2025-12-05 23:03:32,108 - __main__ - INFO - 
+[23/25] Running test_23_ultra_dimensional_relativistic_gravitational_wave_spacetime_distortion (Ultra Dimensional Relativistic Gravitational Wave Spacetime Distortion) - Difficulty: extreme_relativistic_gravitational...
+2025-12-05 23:03:32,114 - __main__ - INFO - Testing ultra-dimensional relativistic gravitational wave-spacetime distortion with complete Einstein field equations...
+2025-12-05 23:03:32,115 - __main__ - INFO -   This test implements complete Einstein field equations with gravitational waves in 6D spacetime
+2025-12-05 23:03:32,115 - __main__ - INFO -   Advanced features: complete Einstein field equations, gravitational wave equations, numerical relativity
+2025-12-05 23:03:32,116 - __main__ - INFO -   Beyond supercomputer capability: relativistic numerical relativity required
+2025-12-05 23:03:37,805 - __main__ - ERROR - [FAIL] test_23_ultra_dimensional_relativistic_gravitational_wave_spacetime_distortion FAILED: Out of memory allocating 800,000,000 bytes (allocated so far: 18,400,004,096 bytes, limit set to: 37,580,963,840 bytes).
+2025-12-05 23:03:37,805 - __main__ - INFO - 
+[24/25] Running test_24_ultra_dimensional_plasma_magnetohydrodynamic_turbulence (Ultra Dimensional Plasma Magnetohydrodynamic Turbulence) - Difficulty: extreme_plasma_magnetohydrodynamic...
+2025-12-05 23:03:37,852 - __main__ - INFO - Testing ultra-dimensional plasma-magnetohydrodynamic-turbulence with complete MHD equations...
+2025-12-05 23:03:37,852 - __main__ - INFO -   This test implements complete magnetohydrodynamic equations with plasma turbulence in 6D phase space
+2025-12-05 23:03:37,857 - __main__ - INFO -   Advanced features: complete MHD equations, Kolmogorov turbulence theory, plasma instabilities
+2025-12-05 23:03:37,858 - __main__ - INFO -   Beyond supercomputer capability: exascale computing required
+2025-12-05 23:03:47,388 - __main__ - ERROR - [FAIL] test_24_ultra_dimensional_plasma_magnetohydrodynamic_turbulence FAILED: Out of memory allocating 800,000,000 bytes (allocated so far: 18,400,004,096 bytes, limit set to: 37,580,963,840 bytes).
+2025-12-05 23:03:47,389 - __main__ - INFO - 
+[25/25] Running test_25_ultra_dimensional_cosmological_dark_matter_dark_energy (Ultra Dimensional Cosmological Dark Matter Dark Energy) - Difficulty: extreme_cosmological_dark_matter_dark_energy...
+2025-12-05 23:03:47,395 - __main__ - INFO - Testing ultra-dimensional cosmological dark matter-dark energy with complete Friedmann equations...
+2025-12-05 23:03:47,395 - __main__ - INFO -   This test implements complete Friedmann equations with dark matter and dark energy in 6D cosmological space
+2025-12-05 23:03:47,396 - __main__ - INFO -   Advanced features: complete Friedmann equations, ΛCDM model, cosmological constant, dark matter halos
+2025-12-05 23:03:47,398 - __main__ - INFO -   Beyond supercomputer capability: zettascale computing required
+2025-12-05 23:03:53,613 - __main__ - ERROR - [FAIL] test_25_ultra_dimensional_cosmological_dark_matter_dark_energy FAILED: Out of memory allocating 800,000,000 bytes (allocated so far: 18,400,004,096 bytes, limit set to: 37,580,963,840 bytes).
+2025-12-05 23:03:53,613 - __main__ - INFO - 
+================================================================================
+2025-12-05 23:03:53,618 - __main__ - INFO - ADC V7.4.4 FIXED COMPREHENSIVE TEST SUITE RESULTS
+2025-12-05 23:03:53,619 - __main__ - INFO - ================================================================================
+2025-12-05 23:03:53,619 - __main__ - INFO - Total Tests Run: 25
+2025-12-05 23:03:53,620 - __main__ - INFO - Tests Passed: 19 (76.0%)
+2025-12-05 23:03:53,621 - __main__ - INFO - Tests Failed/Partial: 6 (24.0%)
+2025-12-05 23:03:53,622 - __main__ - INFO - Overall Success Rate: 76.0%
+2025-12-05 23:03:53,623 - __main__ - INFO - Total Dimension Errors Handled: 0
+2025-12-05 23:03:53,623 - __main__ - INFO - 
+Performance by Difficulty Level:
+2025-12-05 23:03:53,624 - __main__ - INFO -   LOW: 100.0% success rate (1/1)
+2025-12-05 23:03:53,624 - __main__ - INFO -   MEDIUM: 100.0% success rate (6/6)
+2025-12-05 23:03:53,625 - __main__ - INFO -   HIGH: 100.0% success rate (6/6)
+2025-12-05 23:03:53,625 - __main__ - INFO -   VERY_HIGH: 100.0% success rate (4/4)
+2025-12-05 23:03:53,626 - __main__ - INFO -   EXTREME: 100.0% success rate (2/2)
+2025-12-05 23:03:53,626 - __main__ - INFO - 
+Performance Metrics:
+2025-12-05 23:03:53,656 - __main__ - INFO -   Average Final Delta: 9.896791e-06
+2025-12-05 23:03:53,883 - __main__ - INFO -   Median Final Delta: 9.896328e-06
+2025-12-05 23:03:53,885 - __main__ - INFO -   Best Final Delta: 9.804542e-06
+2025-12-05 23:03:53,893 - __main__ - INFO -   Worst Final Delta: 9.988393e-06
+2025-12-05 23:03:53,916 - __main__ - INFO -   Average Iterations: 1464
+2025-12-05 23:03:53,922 - __main__ - INFO -   Median Iterations: 1507
+2025-12-05 23:03:53,922 - __main__ - INFO - 
+Dimension Handling Statistics:
+2025-12-05 23:03:53,923 - __main__ - INFO -   Natural dimension handling: YES
+2025-12-05 23:03:53,923 - __main__ - INFO -   Pure GPU implementation: YES
+2025-12-05 23:03:53,924 - __main__ - INFO -   CPU fallback: NO
+2025-12-05 23:03:53,925 - __main__ - INFO -   Total dimension errors auto-corrected: 0
+2025-12-05 23:06:05,410 - __main__ - INFO - 
+================================================================================
+2025-12-05 23:06:05,417 - __main__ - INFO - [EXCELLENT] ADC V7.4.4 Fixed system demonstrates robust convergence!
+2025-12-05 23:06:05,422 - __main__ - INFO -    - All dimension handling issues resolved
+2025-12-05 23:06:05,422 - __main__ - INFO -    - Pure GPU implementation working correctly
+2025-12-05 23:06:05,424 - __main__ - INFO -    - Enhanced numerical stability achieved
+2025-12-05 23:06:05,424 - __main__ - INFO - ================================================================================
+2025-12-05 23:06:05,431 - __main__ - INFO - Memory usage - Used: 0.00GB/35.00GB, Available: 35.00GB
+2025-12-05 23:06:05,431 - __main__ - INFO - OK: 内存使用正常，35GB内存池运行良好
+2025-12-05 23:06:07,129 - __main__ - INFO - SUCCESS: GPU memory has been cleaned
+2025-12-05 23:06:07,540 - __main__ - INFO - SUCCESS: Python garbage collection completed
+2025-12-05 23:06:07,541 - __main__ - INFO - SUCCESS: CUDA memory pool has been cleaned
+2025-12-05 23:06:07,546 - __main__ - INFO - SUCCESS: ADC test suite execution completed!
+2025-12-05 23:06:07,547 - __main__ - INFO - 
+================================================================================
+2025-12-05 23:06:07,560 - __main__ - INFO - ADC V7.6 Selective Test Suite Completed
+2025-12-05 23:06:07,565 - __main__ - INFO - ================================================================================
+2025-12-05 23:06:07,569 - __main__ - INFO - Desktop path detected: C:\Users\Administrator\Desktop
+2025-12-05 23:06:07,581 - __main__ - INFO - JSON file will be saved to: C:\Users\Administrator\Desktop\ADC_TestResults_Comprehensive_20251205_230607_566.json
+2025-12-05 23:06:40,460 - __main__ - INFO - JSON data prepared (will be saved at the end with terminal output)
+2025-12-05 23:06:40,460 - __main__ - INFO -   - Total tests: 25, Passed: 19, Failed: 6
+2025-12-05 23:06:40,465 - __main__ - INFO -   - Success rate: 76.0%
+2025-12-05 23:06:40,466 - __main__ - INFO - 
+================================================================================
+2025-12-05 23:06:40,474 - __main__ - INFO - ADC V7.6 Complete Test Suite Execution Completed
+2025-12-05 23:06:40,474 - __main__ - INFO - ================================================================================
+2025-12-05 23:06:40,476 - adc_v74 - INFO - ADC Fusion System V7.4.4 shutdown completed
